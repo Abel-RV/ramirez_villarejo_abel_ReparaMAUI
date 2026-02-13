@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\ramirez_villarejo_abel_ReparaMAUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19FB3C89-4768-4310-A4DC-803359B87212}|ramirez_villarejo_abel_ReparaMAUI.csproj|y:\\ramirez_villarejo_abel_reparamaui\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19FB3C89-4768-4310-A4DC-803359B87212}|ramirez_villarejo_abel_ReparaMAUI.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19FB3C89-4768-4310-A4DC-803359B87212}|ramirez_villarejo_abel_ReparaMAUI.csproj|y:\\ramirez_villarejo_abel_reparamaui\\models\\coche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19FB3C89-4768-4310-A4DC-803359B87212}|ramirez_villarejo_abel_ReparaMAUI.csproj|solutionrelative:models\\coche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 151,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Coche.cs",
+              "DocumentMoniker": "Y:\\ramirez_villarejo_abel_ReparaMAUI\\Models\\Coche.cs",
+              "RelativeDocumentMoniker": "Models\\Coche.cs",
+              "ToolTip": "Y:\\ramirez_villarejo_abel_ReparaMAUI\\Models\\Coche.cs",
+              "RelativeToolTip": "Models\\Coche.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwBoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T09:10:43.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "Y:\\ramirez_villarejo_abel_ReparaMAUI\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Models\\Cliente.cs",
+              "ToolTip": "Y:\\ramirez_villarejo_abel_ReparaMAUI\\Models\\Cliente.cs",
+              "RelativeToolTip": "Models\\Cliente.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T09:04:31.048Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 400,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 400,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
