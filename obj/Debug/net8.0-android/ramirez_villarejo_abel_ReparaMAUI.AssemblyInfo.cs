@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ramirez_villarejo_abel_ReparaMAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c9c90492fde911a4cb5850d1cb55b9212eba985a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+54ac6e881bcaf81c05187de4981c1c00751c51ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("ramirez_villarejo_abel_ReparaMAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ramirez_villarejo_abel_ReparaMAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
