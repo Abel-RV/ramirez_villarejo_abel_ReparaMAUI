@@ -1,29 +1,39 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SQLite;
+﻿
 
 namespace ramirez_villarejo_abel_ReparaMAUI.Models
 {
     public class Coche
     {
-        [PrimaryKey,AutoIncrement]
-        public int Id { get; set; }
+        [Table("VEHICULO")]
+        public class Coche
+        {
+            [Key]
+            [Column("ID")]
+            public int Id { get; set; }
 
-        public string Propietario { get; set; }
+            [Column("MATRICULA")]
+            public string Matricula { get; set; }
 
-        public bool Anterior2000 { get; set; }
+            [NotMapped]
+            public string Propietario { get; set; }
 
-        public string Motivo { get; set; }
+            [Column("ANTERIOR2000")]
+            public bool Anterior2000 { get; set; }
 
-        public DateTime FechaTaller { get; set; }
+            [Column("MOTIVO")]
+            public string Motivo { get; set; }
 
-        public DateTime? FechaAlta { get; set; }
+            [Column("FECHATALLER")]
+            public DateTime FechaTaller { get; set; }
 
-        [ForeignKey("IdCliente")]
-        public Cliente Cliente { get; set; }
+            [Column("FECHAALTA")]
+            public DateTime? FechaAlta { get; set; }
+
+            [Column("IDCLIENTE")]
+            public int IdCliente { get; set; }
+
+            [ForeignKey("IdCliente")]
+            public Cliente Cliente { get; set; }
+        }
     }
 }

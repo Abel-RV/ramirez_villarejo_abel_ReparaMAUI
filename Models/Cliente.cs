@@ -1,17 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SQLite;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ramirez_villarejo_abel_ReparaMAUI.Models
 {
+    [Table("CLIENTE")]
     public class Cliente
     {
-        [PrimaryKey]
-        public int idCliente {  get; set; }
-        public string movil {  get; set; }
+        [Key]
+        [Column("IDCLIENTE")]
+        public int idCliente { get; set; }
+
+        [Column("MOVIL")]
+        public string movil { get; set; }
+
+        [Column("NOMBRE_Y_APELLIDOS")]
         public string nombreYApellidos { get; set; }
 
         public List<Coche> Vehiculos { get; set; } = new List<Coche>();
